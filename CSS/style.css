@@ -1,29 +1,156 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Ensures padding does not affect overall dimensions */
 }
 
-.menu ul{ 
-    list-style-type: none;
-    background-color: orange;
-    overflow: hidden; }
+body {
+    background-color: #FFFFF0; /* A light background */
+    font-family: 'Times New Roman', Times, serif; /* Classic font for retro look */
+}
 
-.menu li 
-{float: left;}
+.menu {
+    position: fixed; /* Fix the menu at the top of the viewport */
+    top: 0; /* Align the top edge of the menu with the top of the viewport */
+    left: 0; /* Align the left edge of the menu with the left of the viewport */
+    width: 100%; /* Ensure the menu stretches across the full width of the viewport */
+    z-index: 1000; /* Ensure the menu stays above other content */
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: #000080; /* Dark blue, typical for old web design */
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for a retro feel */
+    font-size: 20px; /* Smaller font size for authenticity */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0; /* Add padding to top and bottom */
+    margin: 0;
+    padding-right: 220px; 
+}
 
 .menu li a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 100px;
-    /* padding-top: 14 px; */
-    /* padding-bottom: 14 px; */
-    /* padding-left: 16 px; */
-    /* padding-right: 16 px; */
+    color: #FFFFF0;
+    padding: 10px;
     text-decoration: none;
+    text-shadow: 1px 1px 0px #000; /* Subtle text shadow for depth */
+    border-style: solid;
+    border-width: 1px; /* Thinner borders for a more refined look */
+    border-color: black; /* Black borders */
+    box-sizing: border-box; /* Include padding and border in the element's total dimensions */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
-.menu li a:hover{
-    background-color: white;
+.menu li a:hover {
+    background-color: #FFD700; /* Gold color on hover */
     color: black;
+    padding: 10px; /* Maintain the same padding */
+    width: 100%; /* Ensure it covers the full width */
+    box-shadow: none; /* Optional: Remove or add shadow effect on hover if desired */
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; /* Smaller size for logo */
+    color: #000080; /* Dark blue to match the menu */
+}
+
+h2{ 
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #FFD700;
+    text-shadow: #000 .5px .5px;
+}
+
+.buyGif {
+    margin: 20px auto; /* Adds margin to top and bottom for spacing */
+    width: 30%; 
+}
+
+.right-box {
+    position: fixed;
+    right: 0;
+    top: 60px; 
+    bottom: 0;
+    width: 200px;
+    background-color: #000080; /* Dark blue to match the menu */
+    color: #FFFFF0;
+    padding: 10px;
+    border-left: 3px solid black; /* Add a left border */
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    overflow-y: auto;
+}
+
+
+.right-box a, .right-box p {
+    color: #FFFFF0;
+    text-decoration: underline; /* Underline links for a classic web look */
+    margin: 5px 0;
+    padding-bottom: 25px;
+    
+}
+
+.right-box a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.content-container {
+    padding: 20px;
+    padding-top: 90px; /* Increase top padding to push content below the menu */
+    padding-right: 220px; /* Ensures content does not overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    font-size: 16px; 
+    color: #000; 
+}
+
+p {
+margin-bottom: 10px; /* Reduce bottom margin if necessary */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Browse {
+    background-color: #FFD700;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 1px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+.second_line {
+    padding: 20px;
+    padding-right: 220px; /* Ensures content does not overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    font-size: 16px; 
+    color: #000; 
+}
+
+iframe{
+    margin-left: 20px;
+}
+
+.third_line {
+    padding: 20px;
+    padding-right: 220px; /* Ensures content does not overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    font-size: 16px; 
+    color: #000; 
+}
+
+.hover-effect {
+    transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+    color: #FFFFF0; /* Same as the background */
+    text-shadow: none;
 }
