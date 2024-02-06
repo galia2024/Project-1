@@ -7,24 +7,24 @@
 }
 
 body {
-    background-color: #FFFFF0; /* A light background */
+    background-color: #FFFFF0; 
     font-family: 'Times New Roman', Times, serif; /* Classic font for retro look */
 }
 
 .menu {
-    position: fixed; /* Fix the menu at the top of the viewport */
+    position: fixed; 
     top: 0; /* Align the top edge of the menu with the top of the viewport */
     left: 0; /* Align the left edge of the menu with the left of the viewport */
-    width: 100%; /* Ensure the menu stretches across the full width of the viewport */
-    z-index: 1000; /* Ensure the menu stays above other content */
+    width: 100%; /* the menu stretches across the full width of the viewport */
+    z-index: 1000; /* the menu stays above other content */
 }
 
 .menu ul {
     list-style-type: none;
-    background-color: #000080; /* Dark blue, typical for old web design */
+    background-color: #000080; /* Dark blue */
     overflow: hidden;
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for a retro feel */
-    font-size: 20px; /* Smaller font size for authenticity */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
     display: flex;
     justify-content: space-around;
     padding: 10px 0; /* Add padding to top and bottom */
@@ -37,26 +37,26 @@ body {
     color: #FFFFF0;
     padding: 10px;
     text-decoration: none;
-    text-shadow: 1px 1px 0px #000; /* Subtle text shadow for depth */
+    text-shadow: 1px 1px 0px #000; /* some text shadow for depth */
     border-style: solid;
-    border-width: 1px; /* Thinner borders for a more refined look */
-    border-color: black; /* Black borders */
-    box-sizing: border-box; /* Include padding and border in the element's total dimensions */
+    border-width: 1px; 
+    border-color: black; 
+    box-sizing: border-box; 
     transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
 .menu li a:hover {
     background-color: #FFD700; /* Gold color on hover */
     color: black;
-    padding: 10px; /* Maintain the same padding */
-    width: 100%; /* Ensure it covers the full width */
-    box-shadow: none; /* Optional: Remove or add shadow effect on hover if desired */
+    padding: 10px; 
+    width: 100%; 
+    box-shadow: none;
 }
 
 .logo {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px; /* Smaller size for logo */
-    color: #000080; /* Dark blue to match the menu */
+    font-size: 30px; 
+    color: #000080; 
 }
 
 h2{ 
@@ -78,7 +78,7 @@ h2{
     top: 60px; 
     bottom: 0;
     width: 200px;
-    background-color: #000080; /* Dark blue to match the menu */
+    background-color: #000080; 
     color: #FFFFF0;
     padding: 10px;
     border-left: 3px solid black; /* Add a left border */
@@ -92,27 +92,27 @@ h2{
 
 .right-box a, .right-box p {
     color: #FFFFF0;
-    text-decoration: underline; /* Underline links for a classic web look */
+    text-decoration: underline;
     margin: 5px 0;
     padding-bottom: 25px;
     
 }
 
 .right-box a:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: #FFD700; 
 }
 
 .content-container {
     padding: 20px;
-    padding-top: 90px; /* Increase top padding to push content below the menu */
-    padding-right: 220px; /* Ensures content does not overlap with the right box */
-    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    padding-top: 90px; /* More top pad to push content below the menu */
+    padding-right: 220px; /* Content doesn't overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; 
     font-size: 16px; 
     color: #000; 
 }
 
 p {
-margin-bottom: 10px; /* Reduce bottom margin if necessary */
+margin-bottom: 10px; 
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -131,8 +131,8 @@ margin-bottom: 10px; /* Reduce bottom margin if necessary */
 
 .second_line {
     padding: 20px;
-    padding-right: 220px; /* Ensures content does not overlap with the right box */
-    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    padding-right: 220px; /* SO content does not overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; 
     font-size: 16px; 
     color: #000; 
 }
@@ -143,8 +143,8 @@ iframe{
 
 .third_line {
     padding: 20px;
-    padding-right: 220px; /* Ensures content does not overlap with the right box */
-    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    padding-right: 220px; /* So content does not overlap with the right box */
+    font-family: 'Courier New', Courier, monospace; 
     font-size: 16px; 
     color: #000; 
 }
@@ -154,6 +154,6 @@ iframe{
 }
 
 .hover-effect:hover {
-    color: #FFFFF0; /* Same as the background */
+    color: #FFFFF0; 
     text-shadow: none;
 }

@@ -70,7 +70,7 @@ h2{
 
 .buyGif {
     margin: 20px auto; /* Adds margin to top and bottom for spacing */
-    width: 30%; 
+    width: 32.5%; 
 }
 
 .right-box {
@@ -129,17 +129,16 @@ margin-bottom: 10px; /* Reduce bottom margin if necessary */
     border-radius: 5px; /* Rounded corners */
 }
 
-/* TABLE */
 .table-container {
     width: 75%; /* Adjusts the table width to 75% of its container */
     margin: auto; /* Centers the table on the page */
-    margin-right: 235px;
+    margin-right: 275px;
 }
 
 table {
     width: 100%; /* Makes the table fill its container */
     border-collapse: collapse;
-    margin: 20px 0; /* Adds some space above and below the table */
+    margin: 20px 0; /* Adds space above and below the table */
 }
 
 table th {
@@ -152,20 +151,18 @@ table th {
 }
 
 table tr:not(:first-child) td {
-    background-color: #FFFFF0; /* Light background */
-    color: black; /* Black text */
+    background-color: #FFFFF0; 
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
 
-/* Hover effect for description cells */
 table tr:not(:first-child) td:hover {
     background-color: #FFD700; /* Gold background on hover */
     color: #000080; /* Black text on hover */
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
-
 
 .second_line {
     padding: 20px;
@@ -180,7 +177,7 @@ table tr:not(:first-child) td:hover {
 }
 
 .hover-effect:hover {
-    color: #FFFFF0; /* Same as the background */
+    color: #FFFFF0; 
     text-shadow: none;
 }
 

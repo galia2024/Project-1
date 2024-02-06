@@ -3,31 +3,30 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding does not affect overall dimensions */
+    box-sizing: border-box; 
 }
 
 body {
-    background-color: #FFFFF0; /* A light background */
-    font-family: 'Times New Roman', Times, serif; /* Classic font for retro look */
+    background-color: #FFFFF0; 
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 .menu {
-    position: fixed; /* Fix the menu at the top of the viewport */
-    top: 0; /* Align the top edge of the menu with the top of the viewport */
-    left: 0; /* Align the left edge of the menu with the left of the viewport */
-    width: 100%; /* Ensure the menu stretches across the full width of the viewport */
-    z-index: 1000; /* Ensure the menu stays above other content */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
 }
 
 .menu ul {
     list-style-type: none;
-    background-color: #000080; /* Dark blue, typical for old web design */
+    background-color: #000080; 
     overflow: hidden;
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for a retro feel */
-    font-size: 20px; /* Smaller font size for authenticity */
+    font-family: 'Courier New', Courier, monospace; 
     display: flex;
     justify-content: space-around;
-    padding: 10px 0; /* Add padding to top and bottom */
+    padding: 10px 0; 
     margin: 0;
     padding-right: 220px; 
 }
@@ -37,27 +36,27 @@ body {
     color: #FFFFF0;
     padding: 10px;
     text-decoration: none;
-    text-shadow: 1px 1px 0px #000; /* Subtle text shadow for depth */
+    text-shadow: 1px 1px 0px #000; /* text shadow for depth */
     border-style: solid;
-    border-width: 1px; /* Thinner borders for a more refined look */
-    border-color: black; /* Black borders */
-    box-sizing: border-box; /* Include padding and border in the element's total dimensions */
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+    border-width: 1px; 
+    border-color: black; 
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-in-out; 
     border-radius: 5px; /* Rounded corners */
 }
 
 .menu li a:hover {
-    background-color: #FFD700; /* Gold color on hover */
+    background-color: #FFD700; 
     color: black;
-    padding: 10px; /* Maintain the same padding */
-    width: 100%; /* Ensure it covers the full width */
-    box-shadow: none; /* Optional: Remove or add shadow effect on hover if desired */
+    padding: 10px; 
+    width: 100%; 
+    box-shadow: none; 
 }
 
 .logo {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px; /* Smaller size for logo */
-    color: #000080; /* Dark blue to match the menu */
+    font-size: 30px; 
+    color: #000080; 
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -78,10 +77,10 @@ h2{
     top: 60px; 
     bottom: 0;
     width: 200px;
-    background-color: #000080; /* Dark blue to match the menu */
+    background-color: #000080; 
     color: #FFFFF0;
     padding: 10px;
-    border-left: 3px solid black; /* Add a left border */
+    border-left: 3px solid black; 
     box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
     overflow-y: auto;
@@ -91,27 +90,27 @@ h2{
 
 .right-box a, .right-box p {
     color: #FFFFF0;
-    text-decoration: underline; /* Underline links for a classic web look */
+    text-decoration: underline; 
     margin: 5px 0;
     padding-bottom: 25px;
     
 }
 
 .right-box a:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: #FFD700; 
 }
 
 .content-container {
     padding: 20px;
     padding-top: 90px; /* Increase top padding to push content below the menu */
-    padding-right: 220px; /* Ensures content does not overlap with the right box */
-    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    padding-right: 220px; /* Ensures content does not overlap with the right-box */
+    font-family: 'Courier New', Courier, monospace; 
     font-size: 16px; 
     color: #000; 
 }
 
 p {
-margin-bottom: 10px; /* Reduce bottom margin if necessary */
+margin-bottom: 10px; 
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -131,7 +130,7 @@ margin-bottom: 10px; /* Reduce bottom margin if necessary */
 .second_line {
     padding: 20px;
     padding-right: 220px; /* Ensures content does not overlap with the right box */
-    font-family: 'Courier New', Courier, monospace; /* Consistent font for the body */
+    font-family: 'Courier New', Courier, monospace; 
     font-size: 16px; 
     color: #000; 
 }
@@ -151,50 +150,50 @@ margin-bottom: 10px; /* Reduce bottom margin if necessary */
 }
 
 .hover-effect:hover {
-    color: #FFFFF0; /* Same as the background */
+    color: #FFFFF0;
     text-shadow: none;
 }
 
 .buyGif {
-    margin: 20px auto; /* Adds margin to top and bottom for spacing */
+    margin-bottom: 20px auto;
     width: 27%; 
 }
 
 th {
-    background-color: #FFD700; /* Gold background color to match SUBMIT button */
-    color: #000; /* Black text color for contrast */
-    text-align: left; /* Aligns text to the left; adjust as needed */
-    padding: 10px; /* Adds padding inside the header cells */
-    font-weight: bold; /* Makes header text bold */
-    border-bottom: 2px solid #000; /* Adds a solid bottom border to headers */
+    background-color: #FFD700; 
+    color: #000;
+    text-align: left;
+    padding: 10px; 
+    font-weight: bold; /* Header text bold */
+    border-bottom: 2px solid #000; 
 }
 
 table.personalQuestions {
-    width: 80%; /* Adjusts the table width to not fill 100% of its container */
-    margin-left: auto; /* Centers the table by automatically adjusting the left margin */
-    margin-right: auto; /* Centers the table by automatically adjusting the right margin */
-    border-collapse: collapse; /* Collapses border to remove any space between them */
+    width: 80%; 
+    margin-left: auto; /* Centers the table*/
+    margin-right: auto; /* Centers the table  */
+    border-collapse: collapse; /* Collapses border to remove space between them */
     margin-top: 20px;
     
 }
 
 td {
-    border: 1px solid #000; /* Adds a solid border around cells */
-    text-align: left; /* Aligns text to the left */
-    padding: 8px; /* Adds padding inside cells for spacing */
+    border: 1px solid #000; 
+    text-align: left; 
+    padding: 8px; /* inside cells for spacing */
 }
 
 th {
-    border: 1px solid #000; /* Adds a solid border around cells */
-    text-align: left; /* Aligns text to the left */
-    padding: 8px; /* Adds padding inside cells for spacing */
+    border: 1px solid #000;
+    text-align: left; 
+    padding: 8px; /* inside cells for spacing */
 }
 .submit-button {
-    background-color: #FFD700; /* Gold background */
-    color: #000; /* Black text */
-    text-decoration: none; /* No underline */
+    background-color: #FFD700; 
+    color: #000; 
+    text-decoration: none; /* no underline */
     padding: 10px 20px; /* Padding for size */
-    border: none; /* No border */
+    border: none; 
     border-radius: 5px; /* Rounded corners */
     display: inline-block; /* Allows it to behave like a button */
     cursor: pointer; /* Pointer cursor on hover */
